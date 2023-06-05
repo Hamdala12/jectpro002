@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+
+.nav {
+    /* position: absolute;
+    right: 20px; */
+     float: right;
+}
+
+.nav {
+    margin: 0 2px;
+}
+
+.nav h4, p{
+    margin: 0 5px o;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+ul a {
+    color: whitesmoke;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.bar {
+    /* float: left; */
+    display: flex;
+    align-items: center;
+}
+
+.bar .text {
+    margin: 20px;
+}
+
+.que {
+    height: 25px;
+    width: 25px;
+    border: 3px solid #fff;
+
+}
+
+.que:before {
+    content: "";
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    background-color: white;
+}
